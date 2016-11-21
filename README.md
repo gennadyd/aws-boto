@@ -15,3 +15,12 @@
 
 7. The output of the script should be the DNS address of the ELB and the result of 5 GET requests to the default path.
 
+
+
+Usage : 
+--- create new environment 
+./createNew.py  --env_name Prod --elb_name newSite --action create
+
+-- destroy environment 
+./createNew.py  --env_name Prod --elb_name newSite --action destroy
+

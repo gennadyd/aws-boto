@@ -20,8 +20,10 @@
 Usage : 
 
 --- create new environment 
+
 ./createNew.py  --env_name Prod --elb_name newSite --action create
 
 -- destroy environment 
+
 ./createNew.py  --env_name Prod --elb_name newSite --action destroy
 

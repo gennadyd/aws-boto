@@ -15,9 +15,11 @@ optional arguments:
                         Optional : set number of instances to build and assign to ELB (2 by default)
 
 --- create new environment 
+
 ./createNew.py  --env_name Prod --elb_name newSite --action create
 
 --- destroy environment 
+
 ./createNew.py  --env_name Prod --elb_name newSite --action destroy
 
 
